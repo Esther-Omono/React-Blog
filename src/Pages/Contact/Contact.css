@@ -1,0 +1,44 @@
+.contact-heading {
+    padding: 10px;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.contact-content {
+    flex: 9;
+    padding: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form > label {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.contact-form > input {
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.contact-submit {
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: "Varela Round", sans-serif;
+}

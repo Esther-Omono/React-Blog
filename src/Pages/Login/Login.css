@@ -1,0 +1,57 @@
+.login {
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),
+                                rgba(255, 255, 255, 0.5)),
+                url("../../Images/services-img8.jpg");
+    background-size: cover;
+}
+
+.login-title {
+    font-size: 50px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.login-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form > label {
+    font-family: "Varela Round", sans-serif;
+    margin: 10px 0;
+}
+
+.login-input {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.login-button {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.register-button {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-family: "Varela Round", sans-serif;
+}

@@ -1,0 +1,7 @@
+.about-wrapper {
+    display: flex;
+}
+
+.about-content {
+    flex: 9;
+}
