@@ -10,7 +10,7 @@ function Home() {
         <div>
             <NavBar />
             <div className="banner">
-                <h1 className="title">EsDit Blog</h1>
+                <h1 className="title">E<span>s</span>Dit Blog</h1>
                 <p className="sub-title">The blog where you get information right at your finger tips!</p>
             </div>
 
